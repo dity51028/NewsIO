@@ -1,0 +1,24 @@
+.card {
+    width: 300px;
+    /*border: 1px solid rgb(5, 5, 5);*/
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    box-shadow: 5px 10px 10px 5px grey;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    .card {
+      width: 100%;
+    }
+  }
