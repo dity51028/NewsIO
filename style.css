@@ -1,5 +1,10 @@
+body{
+    background-color: rgba(9, 67, 133, 0.918);
+}
 .card {
+    height: 500px;
     width: 300px;
+    background-color: antiquewhite;
     /*border: 1px solid rgb(5, 5, 5);*/
     border: 1px solid black;
     border-radius: 10px;
@@ -8,6 +13,7 @@
     display: inline-block;
     box-sizing: border-box;
     box-shadow: 5px 10px 10px 5px grey;
+   
   }
   
   .card img {
